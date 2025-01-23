@@ -1,0 +1,136 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+body , html{
+    width: 100% ; 
+    height: 100% ;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#left{
+    height: 80%;
+    width: 40%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0px;
+}
+#left h1{
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#bottom-left{
+    width: 100%;
+}
+#color{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#colorContainer{
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#color1{
+    width: 10px;
+    height: 10px;
+    background-color: brown;
+    border-radius: 50%;
+}
+#color2{
+    width: 10px;
+    height: 10px;
+    background-color: sienna;
+    border-radius: 50%;
+}
+#left h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+#left p{
+    font-size: 18px ; 
+    width: 70%;
+    font-weight: 500;
+    color: #444;
+    line-height: 23px;
+}
+#right{
+    height: 91%;
+    width: 35%;
+    margin-top: 60px;
+    position: relative;
+}
+#right-top{
+    width: 100%;
+    height: 50px;
+    display: flex ; 
+    align-items: center;
+    justify-content: space-between;
+}
+#right-top h4{
+    font-size: 20px ; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+#right-top h5{
+    font-size: 15px ; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+}
+#right-top h5 i {
+    color: gold ;
+}
+#right img{
+    width: 100%;
+    height: 91%;
+    object-fit: cover;
+}
+#blackbox{
+    height: 120px;
+    position: absolute;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    right: 0%;
+    top: 45%; 
+    left: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border : 5px solid black ;
+}
+#blackbox h5{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+#rotated{
+    position : absolute;
+    left: -8%;
+    bottom: 0%;
+    rotate: 270deg;
+    color: black ; 
+    transform-origin: 0 0 ;
+    font-size: 30px;
+    font-weight: 500;
+}
+ 
