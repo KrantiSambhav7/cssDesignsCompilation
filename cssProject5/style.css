@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background-color: #332720;
+    color: white;
+}
+.background-text{
+    font-family: 'monument';
+    font-size: 300px;
+    letter-spacing: 20px;
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: url("./BackgroundImage.avif");
+    background-size: 120%;
+    animation: anime 30s cubic-bezier(0.3 , 0 , 0.7 , 1) infinite; 
+}
+@keyframes anime {
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 0%;
+    }
+}
+
+
+
